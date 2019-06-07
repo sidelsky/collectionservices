@@ -7,16 +7,17 @@ html {
 }
 
 body {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'EB Garamond', serif;
     font-size: 13px;
     line-height: 15px;
-    background-color: rgb(246, 246, 246);
+    background-color: #102C44;
     margin: 0;
     height: 100%;
+    color: white;
 }
 
 a {
-    color: black;
+    color: white;
 }
 
 .page-container {
@@ -30,12 +31,20 @@ a {
 .logo {
     overflow: hidden;
     flex-grow: 1;
-    width: 100%;
-    margin: 5vh 0;
-    background-image: url("logo.svg");
+    width: 250px;
+    /* width: 100%;
+    margin: 5vh 0; */
+    background-image: url("new-logo.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 200;
+    margin: 0;
 }
 
 .address {
@@ -43,4 +52,7 @@ a {
     margin-bottom: 5vh;
     max-width: 530px;
     text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 100;
 }
