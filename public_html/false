@@ -1,0 +1,27 @@
+[07-Jun-2019 17:21:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/sidelsky/Dropbox/www/collectionservices/public_html/wp-content/themes/project-theme/Theme/Model/Layout.php on line 20
+[08-Jun-2019 10:05:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/sidelsky/Dropbox/www/collectionservices/public_html/wp-content/themes/project-theme/Theme/Model/Layout.php on line 20
+[09-Jun-2019 21:07:32 UTC] PHP Notice:  Object of class App\Helper\Page could not be converted to int in /Users/sidelsky/Dropbox/www/collectionservices/public_html/wordpress/wp-includes/post-template.php on line 310
+[09-Jun-2019 21:07:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_content() in /Users/sidelsky/Dropbox/www/collectionservices/public_html/wp-content/themes/project-theme/front-page.php:23
+Stack trace:
+#0 /Users/sidelsky/Dropbox/www/collectionservices/public_html/wordpress/wp-includes/template-loader.php(78): include()
+#1 /Users/sidelsky/Dropbox/www/collectionservices/public_html/wordpress/wp-blog-header.php(19): require_once('/Users/sidelsky...')
+#2 /Users/sidelsky/Dropbox/www/collectionservices/public_html/index.php(17): require('/Users/sidelsky...')
+#3 {main}
+  thrown in /Users/sidelsky/Dropbox/www/collectionservices/public_html/wp-content/themes/project-theme/front-page.php on line 23
+[09-Jun-2019 21:07:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_contents() in /Users/sidelsky/Dropbox/www/collectionservices/public_html/wp-content/themes/project-theme/front-page.php:23
+Stack trace:
+#0 /Users/sidelsky/Dropbox/www/collectionservices/public_html/wordpress/wp-includes/template-loader.php(78): include()
+#1 /Users/sidelsky/Dropbox/www/collectionservices/public_html/wordpress/wp-blog-header.php(19): require_once('/Users/sidelsky...')
+#2 /Users/sidelsky/Dropbox/www/collectionservices/public_html/index.php(17): require('/Users/sidelsky...')
+#3 {main}
+  thrown in /Users/sidelsky/Dropbox/www/collectionservices/public_html/wp-content/themes/project-theme/front-page.php on line 23
+[09-Jun-2019 21:10:58 UTC] PHP Notice:  Object of class App\Helper\Page could not be converted to int in /Users/sidelsky/Dropbox/www/collectionservices/public_html/wordpress/wp-includes/post-template.php on line 310
+[09-Jun-2019 21:11:30 UTC] PHP Notice:  Object of class App\Helper\Page could not be converted to int in /Users/sidelsky/Dropbox/www/collectionservices/public_html/wordpress/wp-includes/post-template.php on line 310
+[09-Jun-2019 21:11:42 UTC] PHP Notice:  Object of class App\Helper\Page could not be converted to int in /Users/sidelsky/Dropbox/www/collectionservices/public_html/wordpress/wp-includes/post-template.php on line 310
+[09-Jun-2019 21:11:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_content() in /Users/sidelsky/Dropbox/www/collectionservices/public_html/wp-content/themes/project-theme/front-page.php:20
+Stack trace:
+#0 /Users/sidelsky/Dropbox/www/collectionservices/public_html/wordpress/wp-includes/template-loader.php(78): include()
+#1 /Users/sidelsky/Dropbox/www/collectionservices/public_html/wordpress/wp-blog-header.php(19): require_once('/Users/sidelsky...')
+#2 /Users/sidelsky/Dropbox/www/collectionservices/public_html/index.php(17): require('/Users/sidelsky...')
+#3 {main}
+  thrown in /Users/sidelsky/Dropbox/www/collectionservices/public_html/wp-content/themes/project-theme/front-page.php on line 20

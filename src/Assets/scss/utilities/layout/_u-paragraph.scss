@@ -1,0 +1,22 @@
+.u-paragraph {
+
+   @include set-font-size(1.2rem, 1.2rem, 1rem, 2.4rem);
+   line-height: 1.25;
+
+   &--white {
+      color: palette(bw, white);
+   }
+
+   &__container {
+      p {
+         margin-bottom: $spacing--small;
+      }
+   
+      &--align-bottom {
+         position: absolute;
+         bottom: 0;
+      }
+
+   }
+
+}

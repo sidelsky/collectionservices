@@ -1,0 +1,23 @@
+.c-site-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: palette(bw, white);
+    z-index: 2;
+    width: 100px;
+    text-align: center;
+
+    &__motief {
+        width: 76px;
+        height: 100px;
+        margin: auto;
+        position: absolute;
+        bottom: 15px;
+        left: 0;
+        right: 0;
+    }
+
+}
+
+
